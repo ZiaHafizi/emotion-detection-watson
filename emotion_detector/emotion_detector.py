@@ -1,9 +1,8 @@
 def emotion_detector(text_to_analyze):
     """
-    Returns a mock emotion detection output
-    without connecting to any API.
+    Returns mock emotion detection output.
+    Handles empty input with None values.
     """
-
     if not text_to_analyze:
         return {
             "anger": None,
